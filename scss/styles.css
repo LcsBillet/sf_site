@@ -1,0 +1,926 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Montserrat font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+/* Open sans font */
+/* ##### COLORS  ##### */
+/* ##### FONT  ##### */
+@font-face {
+  font-family: "Cheddar Jack";
+  src: url("../font/cheddar.ttf"); }
+
+/* ##### GENERAL  ##### */
+/* line 19, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 24, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+body {
+  background: #fff;
+  color: #60606e;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; }
+
+/* Texts */
+/* line 35, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.montserrat-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+/* line 36, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.open-sans-text {
+  font-family: "Open sans", sans-serif; }
+
+/* line 37, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.white-text {
+  color: white; }
+
+/* line 38, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.green-text {
+  color: #05CB85; }
+
+/* line 39, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.orange-text {
+  color: #ED7230; }
+
+/* line 40, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.blue-text {
+  color: #5FC8D7; }
+
+/* line 41, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.gray-text {
+  color: #999999; }
+
+/* line 42, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.uppercase {
+  text-transform: uppercase; }
+
+/* line 43, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.italic {
+  font-style: italic; }
+
+/* line 44, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+p {
+  font-family: "Open sans", sans-serif;
+  color: #999999;
+  line-height: 30px; }
+
+/* line 49, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.social-icons li a:hover {
+  color: #5FC8D7; }
+
+/* Links */
+/* line 54, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+a {
+  color: #60606e;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  /* line 58, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  a:hover:after {
+    width: 50%; }
+
+/* line 62, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+a.link {
+  position: relative; }
+  /* line 64, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  a.link:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #5FC8D7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  /* line 75, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  a.link:focus {
+    color: #60606e;
+    text-decoration: none; }
+  /* line 79, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  a.link:hover {
+    color: #60606e;
+    text-decoration: none; }
+
+/* Sections */
+/* line 86, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+section {
+  margin-top: 150px; }
+
+/* line 89, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.green-section {
+  background-color: #05CB85; }
+  /* line 93, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .green-section .btn.white {
+    color: #05CB85; }
+
+/* line 99, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.blue-section {
+  background-color: #5FC8D7; }
+  /* line 103, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .blue-section .btn.white {
+    color: #5FC8D7; }
+
+/* line 108, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.white-section {
+  background-color: #fff; }
+
+/* line 111, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.light-gray-section {
+  background-color: #efeff0; }
+
+/* line 114, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+img {
+  width: 100%; }
+
+/* Lists */
+/* List 1 */
+/* line 118, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.list li {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px; }
+
+/* line 126, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.list li:last-child {
+  margin-bottom: 0; }
+
+/* line 127, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.list li:before {
+  font-family: "Ionicons";
+  content: '\f374';
+  position: absolute;
+  left: 0;
+  color: #5FC8D7; }
+
+/* List 2 */
+/* line 138, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.list_2 li {
+  list-style: none;
+  float: left;
+  width: 100%; }
+  /* line 143, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.list_2 li a {
+    display: inline-block;
+    padding: 20px;
+    border-bottom: solid 1px #bfbfbf;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  /* line 152, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.list_2 li:first-child a {
+    border-top: solid 1px #bfbfbf; }
+  /* line 154, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.list_2 li a > span {
+    float: right; }
+  /* line 155, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.list_2 li a:hover {
+    border-bottom: solid 1px #5FC8D7; }
+
+/* List 3 (tags) */
+/* line 161, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.tags {
+  float: left; }
+  /* line 163, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.tags li {
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left; }
+    /* line 168, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    ul.tags li a {
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      color: #999999;
+      background-color: #e5e5e5;
+      padding: 0 15px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase; }
+      /* line 180, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      ul.tags li a:hover {
+        background-color: #f2f2f2;
+        color: #60606e; }
+
+/* Social Icons*/
+/* line 190, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+ul.social-icons li {
+  list-style: none;
+  float: left;
+  margin: 0 10px; }
+  /* line 195, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.social-icons li:first-child {
+    margin: 0 10px 0 0; }
+  /* line 196, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.social-icons li:last-child {
+    margin: 0 0 0 10px; }
+  /* line 198, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  ul.social-icons li a {
+    color: #999999;
+    font-size: 18px; }
+
+/* line 206, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.social-icons-contact a {
+  color: #999999;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 10px; }
+
+/* Buttons */
+/* line 216, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.btn {
+  height: 50px;
+  line-height: 50px;
+  min-width: 150px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  /* line 229, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .btn:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  /* line 237, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .btn.green {
+    background-color: #05CB85;
+    color: #fff; }
+  /* line 242, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .btn.blue {
+    background-color: #5FC8D7;
+    color: #fff; }
+  /* line 247, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .btn.white {
+    background-color: #fff;
+    color: #05CB85; }
+
+@media (max-width: 991px) {
+  /* line 254, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .btn {
+    margin: 20px 0; } }
+
+/* Section's title */
+/* line 260, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.section-title {
+  width: 50%;
+  margin: 0 auto 100px;
+  text-align: center; }
+  /* line 264, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .section-title span {
+    position: relative;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #60606e;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px; }
+    /* line 276, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .section-title span:after {
+      content: "";
+      background-color: #5FC8D7;
+      position: absolute;
+      top: 20px;
+      left: 0;
+      z-index: -1;
+      width: 60px;
+      height: 20px; }
+  /* line 287, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .section-title p {
+    line-height: 24px;
+    color: #60606e; }
+
+@media (max-width: 991px) {
+  /* line 294, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .section-title {
+    margin: 0 auto 50px; }
+    /* line 297, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .section-title span :after {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+
+/* Tab menu */
+/* line 308, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.tab {
+  overflow: hidden;
+  float: left; }
+  /* line 312, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .tab nav {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    border-bottom: solid 2px #e6e6e6;
+    margin-bottom: 30px;
+    position: relative; }
+    /* line 320, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .tab nav .bottom-line {
+      height: 2px;
+      background-color: #7beec7;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+    /* line 330, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .tab nav a {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0 10px 20px;
+      color: #999999;
+      display: inline-block;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: relative; }
+      /* line 342, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      .tab nav a.current {
+        color: #60606e; }
+  /* line 346, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .tab .tab_single {
+    display: none; }
+  /* line 348, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .tab .tab_single.shown {
+    display: block; }
+
+/* ##### 01 : HEADER & FOOTER  ##### */
+/* Header */
+/* line 355, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+header.main-header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 9; }
+  /* line 365, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  header.main-header .logo {
+    float: left;
+    height: 100px;
+    line-height: 100px; }
+    /* line 370, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    header.main-header .logo a img {
+      width: 50%; }
+
+/* line 378, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.menu {
+  float: right; }
+
+/* Desktop nav*/
+/* line 382, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+nav.desktop-nav {
+  float: left; }
+  /* line 384, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  nav.desktop-nav li {
+    list-style: none; }
+  /* line 387, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  nav.desktop-nav ul.first-level > li {
+    float: left;
+    margin-right: 20px;
+    position: relative; }
+    /* line 392, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li:last-child {
+      margin-right: 0; }
+    /* line 394, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li > a {
+      display: inline-block;
+      line-height: 100px;
+      position: relative;
+      -webkit-transition: none;
+      transition: none; }
+      /* line 401, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      nav.desktop-nav ul.first-level > li > a:after {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 50%;
+        height: 1px;
+        background-color: #60606e;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
+    /* line 415, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li:hover > a:after {
+      top: 35px;
+      opacity: 1; }
+    /* line 420, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li a {
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: 700; }
+    /* line 427, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li > ul.second-level {
+      display: none;
+      z-index: 999;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      min-width: 200px;
+      background-color: #60606e; }
+      /* line 437, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      nav.desktop-nav ul.first-level > li > ul.second-level > li > a {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        color: #fff; }
+        /* line 445, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+        nav.desktop-nav ul.first-level > li > ul.second-level > li > a:hover {
+          background-color: #404051; }
+      /* line 450, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      nav.desktop-nav ul.first-level > li > ul.second-level > li:nth-child(even) > a {
+        background-color: #585866; }
+    /* line 455, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.desktop-nav ul.first-level > li:last-child > ul.second-level {
+      left: auto;
+      right: 0; }
+
+@media (max-width: 991px) {
+  /* line 466, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .menu nav.desktop-nav {
+    display: none; } }
+
+/* Mobile nav */
+/* line 471, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+nav.mobile-nav {
+  display: inline-block;
+  min-width: 300px;
+  background-color: #60606e;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  display: none; }
+  /* line 480, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  nav.mobile-nav > ul.first-level li {
+    list-style: none; }
+    /* line 482, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.mobile-nav > ul.first-level li a {
+      display: inline-block;
+      text-decoration: none;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 12px; }
+      /* line 494, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      nav.mobile-nav > ul.first-level li a :hover {
+        background-color: #404051; }
+    /* line 499, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    nav.mobile-nav > ul.first-level li > ul.second-level {
+      display: none;
+      background-color: #50505f; }
+
+/* Menu icon */
+/* line 511, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+header.main-header .menu-icon {
+  float: left;
+  cursor: pointer;
+  margin-top: 41.5px;
+  display: none; }
+  /* line 517, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  header.main-header .menu-icon .line {
+    height: 1px;
+    width: 30px;
+    background-color: #60606e;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    /* line 524, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    header.main-header .menu-icon .line:nth-child(2) {
+      margin: 7px 0;
+      width: 15px; }
+    /* line 529, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    header.main-header .menu-icon .line:last-child {
+      width: 20px; }
+
+@media (max-width: 991px) {
+  /* line 535, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  header.main-header .menu-icon {
+    display: block; } }
+
+/* Footer */
+/* line 540, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+footer.main-footer {
+  padding: 50px 0; }
+  /* line 544, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer nav.footer-nav ul {
+    padding: 0;
+    margin: 0; }
+    /* line 547, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    footer.main-footer nav.footer-nav ul li {
+      list-style: none;
+      float: left;
+      margin: 0 20px;
+      padding: 0; }
+      /* line 553, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      footer.main-footer nav.footer-nav ul li:first-child {
+        margin: 0 20px 0 0; }
+      /* line 554, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      footer.main-footer nav.footer-nav ul li a {
+        text-transform: uppercase;
+        color: #9a9a9a; }
+
+@media (max-width: 991px) {
+  /* line 565, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer * {
+    text-align: center; }
+  /* line 568, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer ul.social-icons {
+    float: left;
+    width: 100%;
+    text-align: center; }
+  /* line 569, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer ul.social-icons li {
+    margin: 0;
+    width: -webkit-calc(100% / 6);
+    width: calc(100% / 6); }
+  /* line 570, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer nav.footer-nav ul li {
+    text-align: center;
+    width: 100%; }
+  /* line 574, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  footer.main-footer nav.footer-nav ul li, footer.main-footer nav.footer-nav ul li:first-child {
+    margin-left: 0;
+    margin-bottom: 20px; } }
+
+/* ##### 02 : HEADER  ##### */
+/* SLIDE 1 */
+/* line 582, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.site-hero {
+  height: 850px;
+  width: 100%;
+  background: #fff url("../assets/img/bg3.jpeg") no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
+  /* line 590, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero ul.slides {
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    top: 100px; }
+    /* line 596, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .site-hero ul.slides li {
+      opacity: 0;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  /* line 607, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero .small-title {
+    color: #FFFFFF;
+    padding: 7px 12px;
+    background-color: #5FC8D7;
+    display: inline-block; }
+  /* line 613, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero .big-title {
+    font-size: 48px;
+    color: #60606e;
+    padding: 10px 40px;
+    border: solid 10px #60606e;
+    display: inline-block;
+    margin-bottom: 30px; }
+  /* line 621, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero p {
+    width: 50%;
+    margin: 0 auto;
+    color: #60606e; }
+
+/* SLIDE 2 */
+/* line 629, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.site-hero_2 {
+  background: url("../assets/img/bg2.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative; }
+  /* line 636, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero_2 .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    /* line 645, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .site-hero_2 .page-title .small-title {
+      font-size: 14px; }
+    /* line 646, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .site-hero_2 .page-title .big-title {
+      font-size: 36px; }
+
+/* line 650, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.agency {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: -300px; }
+  /* line 656, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .agency img {
+    max-height: 400px; }
+  /* line 660, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .agency p {
+    color: #60606e; }
+  /* line 664, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .agency .section-title {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto 30px; }
+
+@media (max-width: 991px) {
+  /* line 671, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .site-hero ul.slides {
+    height: 750px; }
+  /* line 672, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .agency {
+    margin-top: 30px; }
+    /* line 674, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .agency img {
+      margin-bottom: 30px; }
+    /* line 677, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .agency .section-title {
+      margin: 0 auto;
+      text-align: center; }
+    /* line 681, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .agency p {
+      text-align: center; } }
+
+/* ##### 03 : SERVICES  ##### */
+/* line 688, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left i.icon {
+  display: block;
+  font-size: 36px; }
+
+/* line 693, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left .service-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: inline-block; }
+
+/* line 700, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left ul li {
+  list-style: none;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #999999; }
+
+@media (max-width: 991px) {
+  /* line 710, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .services .services-left {
+    text-align: center;
+    margin-bottom: 50px; } }
+
+/* ##### 04 : PORTFOLIO  ##### */
+/* line 716, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.portfolio .categories-grid span {
+  font-size: 30px;
+  margin-bottom: 50px;
+  display: inline-block; }
+
+/* line 724, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.portfolio .categories-grid .categories ul li {
+  list-style: none;
+  margin: 20px 0; }
+  /* line 728, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio .categories-grid .categories ul li a {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #60606e;
+    margin-left: 20px; }
+    /* line 736, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .portfolio .categories-grid .categories ul li a.active {
+      margin-left: 0;
+      background-color: #5FC8D7;
+      padding: 0 10px;
+      color: white; }
+
+@media (max-width: 991px) {
+  /* line 752, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio .categories-grid span {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%; }
+  /* line 755, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio .categories-grid .categories ul li {
+    text-align: center; }
+    /* line 758, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .portfolio .categories-grid .categories ul li a {
+      margin-left: 0; } }
+
+/* line 767, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.portfolio_item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  display: inline-block; }
+  /* line 773, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio_item .portfolio_item_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    /* line 787, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .portfolio_item .portfolio_item_hover .item_info {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      /* line 796, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      .portfolio_item .portfolio_item_hover .item_info span {
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #60606e;
+        font-size: 18px;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.5s ease-in-out 0.3s;
+        transition: all 0.5s ease-in-out 0.3s;
+        opacity: 0; }
+      /* line 811, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+      .portfolio_item .portfolio_item_hover .item_info em {
+        font-style: normal;
+        font-weight: 700;
+        display: inline-block;
+        background-color: #5FC8D7;
+        padding: 5px;
+        color: white;
+        margin-top: 5px;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.5s ease-in-out 0.5s;
+        transition: all 0.5s ease-in-out 0.5s;
+        opacity: 0; }
+  /* line 830, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio_item:hover .portfolio_item_hover {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  /* line 837, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .portfolio_item:hover .item_info em, .portfolio_item:hover .item_info span {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+
+/* Single project */
+/* line 847, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.project_images {
+  float: left; }
+
+/* line 848, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.related_projects {
+  float: left; }
+
+/* line 849, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.pages_pagination {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  text-align: right;
+  font-size: 24px;
+  margin: 50px 0; }
+  /* line 857, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .pages_pagination .all {
+    float: left; }
+  /* line 861, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .pages_pagination > a {
+    display: inline-block;
+    height: 100%;
+    width: 50px;
+    text-align: center; }
+    /* line 867, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .pages_pagination > a:hover {
+      background-color: #5FC8D7;
+      color: white; }
+
+@media (max-width: 991px) {
+  /* line 874, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .related_projects img {
+    margin-bottom: 30px; } }
+
+/* ##### 03 : SERVICES  ##### */
+/* line 880, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left i.icon {
+  display: block;
+  font-size: 36px; }
+
+/* line 885, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left .service-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: inline-block; }
+
+/* line 892, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.services .services-left ul li {
+  list-style: none;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #999999; }
+
+@media (max-width: 991px) {
+  /* line 902, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .services .services-left {
+    text-align: center;
+    margin-bottom: 50px; } }
+
+/* ##### 06 : BENEFITS STYLES  ##### */
+/*benefits 1*/
+/* line 907, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.benefits_1_single {
+  width: 100%;
+  text-align: center; }
+  /* line 911, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .benefits_1_single > i {
+    display: inline-block;
+    font-size: 60px;
+    position: relative; }
+    /* line 916, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+    .benefits_1_single > i:after {
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      height: 20px;
+      width: 40px;
+      background-color: #5FC8D7;
+      z-index: -1; }
+  /* line 928, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .benefits_1_single > .title {
+    font-size: 18px; }
+
+/*benefits 2 */
+/* line 934, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+.benefits_2_single {
+  margin-bottom: 30px; }
+  /* line 936, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .benefits_2_single:nth-last-child(-n+3) {
+    margin-bottom: 30px; }
+  /* line 938, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .benefits_2_single > i {
+    display: inline-block;
+    background-color: #5FC8D7;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px; }
+  /* line 950, /Users/floax/Documents/Studio Floax/Site web/studio/web/scss/styles.scss */
+  .benefits_2_single > .title {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #60606e; }
+
+/*# sourceMappingURL=styles.css.map */
