@@ -17,10 +17,12 @@ $jaune: #F8B132;
 
 /* ##### GENERAL  ##### */
 *{
-    outline:0;padding: 0;margin:0;
+    outline:0;
+    margin:0;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
 }
+
 body{
     background: #fff;
     color:#60606e;
@@ -58,71 +60,108 @@ a{
     &:hover:after{
         width: 50%;
     }
-}
-a.link{
-    position: relative;
-    &:after{
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        width: 0;
-        height: 1px;
-        background-color: $bleu;
-        -webkit-transition:all .2s ease-in-out;
-        transition:all .2s ease-in-out;
-    }
-    &:focus{
-        color:#60606e;
-        text-decoration: none;
-    }
-    &:hover{
-        color:#60606e;
-        text-decoration: none;
+
+    &.link{
+        position: relative;
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: $bleu;
+            -webkit-transition:all .2s ease-in-out;
+            transition:all .2s ease-in-out;
+        }
+        &:focus{
+            color:#60606e;
+            text-decoration: none;
+        }
+        &:hover{
+            color:#60606e;
+            text-decoration: none;
+        }
     }
 }
 
 /* Sections */
 section{
     margin-top: 150px;
-}
-.green-section{
-    background-color: $vert;
 
-    .btn{
-        &.white{
-            color: $vert;
+    &.green-section{
+        background-color: $vert;
+
+        .btn{
+            &.white{
+                color: $vert;
+            }
         }
     }
-}
 
-.blue-section{
-    background-color: $bleu;
+    &.s-contact{
+        background-color: $bleu;
+        padding: 50px 0;
 
-    .btn{
-        &.white{
-            color: $bleu;
+        .sc-devis{
+            .btn{
+                &.white{
+                    color: $bleu;
+                }
+            }
+        }
+
+        .sc-info{
+            .c-desc{
+                .cd-title{
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    color: #11263e;
+                }
+
+                .cd-text{
+                    color: #11263e;
+                }
+
+                .cd-social-icons{
+                    a{
+                        color: #11263e;
+                        font-size: 22px;
+                        cursor: pointer;
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
     }
-}
-.white-section{
-    background-color:#fff;
-}
-.light-gray-section{
-    background-color: #efeff0;
+
+    &.blue-section{
+        background-color: $bleu;
+
+        .btn{
+            &.white{
+                color: $bleu;
+            }
+        }
+    }
+    &.white-section{
+        background-color:#fff;
+    }
+    &.light-gray-section{
+        background-color: #efeff0;
+    }
 }
 img{width:100%;}
 
 /* Lists */
 /* List 1 */
-ul.list li{
-    list-style: none;
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-ul.list{
+ul.list {
     li{
+        list-style: none;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+
         &:last-child{margin-bottom: 0}
         &:before{
             font-family: "Ionicons";
@@ -202,27 +241,15 @@ ul.social-icons{
     }
 }
 
-.social-icons-contact{
-    a{
-        color:#999999;
-        font-size: 22px;
-        cursor: pointer;
-        margin-right: 10px;
-    }
-}
-
 
 /* Buttons */
 .btn{
-    height: 50px;
-    line-height: 50px;
-    min-width: 150px;
+    padding: 10px 20px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     border-radius:0;
-    padding: 0;
     -webkit-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
 
@@ -247,6 +274,11 @@ ul.social-icons{
     &.white{
         background-color: #fff;
         color:$vert;
+    }
+
+    &.btn-contact{
+        background-color: #fff;
+        color:$bleu;
     }
 }
 
@@ -583,7 +615,7 @@ footer{
     height: 850px;
     width: 100%;
     background: #fff url("../assets/img/bgHd.jpg") no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     overflow: hidden;
 
@@ -602,6 +634,7 @@ footer{
             -webkit-transform:translate(-50%, -50%);
             -ms-transform:translate(-50%, -50%);
             transform:translate(-50%, -50%);
+
         }
     }
     .small-title{
@@ -622,6 +655,12 @@ footer{
         width: 50%;
         margin: 0 auto;
         color:#60606e;
+    }
+
+    .btn{
+        &.blue{
+            padding: 5px;
+        }
     }
 }
 

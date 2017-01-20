@@ -31,6 +31,7 @@
                     <p>
                         People will forget what you said, people will forget what you did, but people will never forget how you made them feel - Maya Angelou
                     </p>
+                    <a href="#" class="btn blue"><span>Découvrir notre méthode</span></a>
                 </li>
             </ul>
         </div>
@@ -157,7 +158,6 @@
             $(window).load(function() {
                 new WOW().init();
 
-                // initialise flexslider
                 $('.site-hero').flexslider({
                     animation: "fade",
                     directionNav: false,
@@ -169,8 +169,6 @@
                     slideshowSpeed: 4000,
                 });
 
-
-                // initialize isotope
                 var $container = $('.portfolio_container');
                 $container.isotope({
                     filter: '*',
