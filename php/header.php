@@ -6,7 +6,6 @@
         </div>
 
         <div class="menu">
-            <!-- desktop navbar -->
             <nav class="desktop-nav">
                 <ul class="first-level">
                     <li><a href="index.php" class="animsition-link link">Home</a></li>
@@ -17,7 +16,6 @@
                     <li><a href="contact.php" class="animsition-link link">Contact</a></li>
                 </ul>
             </nav>
-            <!-- mobile navbar -->
             <nav class="mobile-nav"></nav>
             <div class="menu-icon">
                 <div class="line"></div>
