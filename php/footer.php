@@ -4,12 +4,12 @@
             <div class="row">
                 <nav class="footer-nav">
                     <ul>
-                        <li><a href="index.html" class="animsition-link link">Home</a></li>
-                        <li><a href="about.html" class="animsition-link link">A propos</a></li>
-                        <li><a href="services.html" class="animsition-link link">Services</a></li>
-                        <li><a href="porfolio.html" class="animsition-link link">Portfolio</a></li>
-                        <!--<li><a href="" class="animsition-link link">blog</a></li>-->
-                        <li><a href="contact.html" class="animsition-link link">Contact</a></li>
+                        <li><a href="index.php" class="animsition-link link">Home</a></li>
+                        <li><a href="about.php" class="animsition-link link">A propos</a></li>
+                        <li><a href="" class="animsition-link link">Méthode</a></li>
+                        <!--<li><a href="services.php" class="animsition-link link">Services</a></li>-->
+                        <li><a href="porfolio.php" class="animsition-link link">Portfolio</a></li>
+                        <li><a href="contact.php" class="animsition-link link">Contact</a></li>
                     </ul>
                 </nav>
             </div>

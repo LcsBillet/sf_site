@@ -25,16 +25,9 @@
             <ul class="slides">
                 <li>
                     <div>
-                        <span class="small-title uppercase montserrat-text">Nous sommes une</span>
+                        <span class="small-title uppercase montserrat-text">UX / UI / Intégration</span>
                     </div>
                     <div class="big-title uppercase montserrat-text">Agence Digitale</div>
-                    <p>
-                        People will forget what you said, people will forget what you did, but people will never forget how you made them feel - Maya Angelou
-                    </p>
-                </li>
-                <li>
-                    <div><span class="small-title uppercase montserrat-text">Nous sommes des</span></div>
-                    <div class="big-title uppercase montserrat-text">Cr&eacute;ateurs d'exp&eacute;riences</div>
                     <p>
                         People will forget what you said, people will forget what you did, but people will never forget how you made them feel - Maya Angelou
                     </p>
@@ -54,7 +47,7 @@
                 <div class="col-md-offset-1 col-md-6 col-sm-12">
                     <div class="row">
                         <div class="section-title">
-                            <span>Qu'est-ce que Studio Floax?</span>
+                            <span>A propos</span>
                         </div>
                         <p>
                             Pour nous, l'utilisateur doit être au centre de toutes les reflexions. Nous pensons qu'il est important de remettre l'humain au premier plan au travers d'experiences utilisateurs adaptées, fiables et agréables, de design émotionel et de fonctionnalités pertinentes. Nos compétences techniques et créatives, nous permettent de suivre un projet de sa création à sa publication grâce aux méthodes de Design Thinking.

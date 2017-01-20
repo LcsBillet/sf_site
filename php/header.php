@@ -11,9 +11,9 @@
                 <ul class="first-level">
                     <li><a href="index.php" class="animsition-link link">Home</a></li>
                     <li><a href="about.php" class="animsition-link link">A propos</a></li>
-                    <li><a href="services.php" class="animsition-link link">Services</a></li>
+                    <li><a href="" class="animsition-link link">Méthode</a></li>
+                    <!--<li><a href="services.php" class="animsition-link link">Services</a></li>-->
                     <li><a href="porfolio.php" class="animsition-link link">Portfolio</a></li>
-                    <!--<li><a href="" class="animsition-link link">blog</a></li>-->
                     <li><a href="contact.php" class="animsition-link link">Contact</a></li>
                 </ul>
             </nav>

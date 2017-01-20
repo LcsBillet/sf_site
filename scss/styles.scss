@@ -351,9 +351,8 @@ ul.social-icons{
 /* ##### 01 : HEADER & FOOTER  ##### */
 /* Header */
 header{
-
     &.main-header{
-        height: 100px;
+        height: 80px;
         width: 100%;
         position: absolute;
         position: fixed;
@@ -365,7 +364,7 @@ header{
 
         .logo{
             float: left;
-            height: 100px;
+            height: 80px;
             line-height: 100px;
             a{
                 img{
@@ -512,7 +511,7 @@ header{
         .menu-icon{
             float:left;
             cursor: pointer;
-            margin-top: 41.5px;
+            margin-top: 30px;
             display:none;
 
             .line{
@@ -583,7 +582,7 @@ footer{
 .site-hero{
     height: 850px;
     width: 100%;
-    background: #fff url("../assets/img/bg3.jpeg") no-repeat;
+    background: #fff url("../assets/img/bgHd.jpg") no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
