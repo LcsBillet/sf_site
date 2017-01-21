@@ -27,11 +27,16 @@
                     <div>
                         <span class="small-title uppercase montserrat-text">UX / UI / Intégration</span>
                     </div>
-                    <div class="big-title uppercase montserrat-text">Agence Digitale</div>
-                    <p>
-                        People will forget what you said, people will forget what you did, but people will never forget how you made them feel - Maya Angelou
-                    </p>
-                    <a href="#" class="btn blue"><span>Découvrir notre méthode</span></a>
+                    <div class="big-title uppercase montserrat-text">
+                        Agence Digitale
+                        <p>
+                            People will forget what you said, people will forget what you did, but people will never forget how you made them feel <br>- Maya Angelou -
+                        </p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn blue"><span>Découvrir notre méthode</span></a>
+                    </div>
+
                 </li>
             </ul>
         </div>
