@@ -32,7 +32,7 @@
             <div class="row portfolio_container">
                 <!-- single work -->
                 <div class="col-md-4 ui dev">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp">
+                    <a  class="portfolio_item work-grid wow fadeInUp">
                         <img src="assets/img/cooktools.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -44,10 +44,10 @@
                     </a>
                 </div>
                 <!-- end single work -->
-                
+
                 <!-- single work -->
                 <div class="col-md-4 ui">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".3s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".3s">
                         <img src="assets/img/planb.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -61,7 +61,7 @@
 
                 <!-- single work -->
                 <div class="col-md-4 graphics logo">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".2s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".2s">
                         <img src="assets/img/phoeland.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -73,10 +73,10 @@
                     </a>
                 </div>
                 <!-- end single work -->
-                
+
                 <!-- single work -->
                 <div class="col-md-4 web ui dev">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
                         <img src="assets/img/mpsmm.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -89,10 +89,10 @@
                     </a>
                 </div>
                 <!-- end single work -->
-                
+
                 <!-- single work -->
                 <div class="col-md-4 web ui dev">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
                         <img src="assets/img/sitebert.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -104,10 +104,10 @@
                     </a>
                 </div>
                 <!-- end single work -->
-                
+
                 <!-- single work -->
                 <div class="col-md-4 graphics ui">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
                         <img src="assets/img/dtb.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -118,10 +118,10 @@
                     </a>
                 </div>
                 <!-- end single work -->
-                
+
                 <!-- single work -->
                 <div class="col-md-4 graphics ui">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".5s">
                         <img src="assets/img/four.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -137,7 +137,7 @@
 
                 <!-- single work -->
                 <div class="col-md-4 logo">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".4s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".4s">
                         <img src="assets/img/odpp.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -151,7 +151,7 @@
 
                 <!-- single work -->
                 <div class="col-md-4 logo web ui">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".6s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".6s">
                         <img src="assets/img/sansissues.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
@@ -165,7 +165,7 @@
 
                 <!-- single work -->
                 <div class="col-md-4 ads graphics">
-                    <a href="single-project.html" class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".7s">
+                    <a  class="portfolio_item work-grid wow fadeInUp" data-wow-delay=".7s">
                         <img src="assets/img/bc.jpg" alt="image">
                         <div class="portfolio_item_hover">
                             <div class="item_info">
