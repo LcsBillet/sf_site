@@ -13,6 +13,7 @@
             <div class="row">
                 <div class="c-desc">
                     <span class="montserrat-text cd-title">Retrouvez nous sur les réseaux sociaux !</span>
+                    <hr />
                     <p class="cd-text">
                         Nous pensons que pour développer des solutions adaptés, développeurs, designers et clients doivent travailler ensemble à chaque instant.
                     </p>

@@ -25,16 +25,16 @@
             <ul class="slides">
                 <li>
                     <div>
-                        <span class="small-title uppercase montserrat-text">UX / UI / Intégration</span>
+                        <span class="small-title uppercase montserrat-text">Créativité & UX Design</span>
                     </div>
                     <div class="big-title uppercase montserrat-text">
                         Agence Digitale
                         <p>
-                            People will forget what you said, people will forget what you did, but people will never forget how you made them feel <br>- Maya Angelou -
+                            Créateur d'experiences
                         </p>
                     </div>
                     <div>
-                        <a href="#" class="btn blue"><span>Découvrir notre méthode</span></a>
+                        <a href="./methode.php" class="btn blue"><span>Découvrir notre méthode</span></a>
                     </div>
 
                 </li>
@@ -53,12 +53,12 @@
                 <div class="col-md-offset-1 col-md-6 col-sm-12">
                     <div class="row">
                         <div class="section-title">
-                            <span>A propos</span>
+                            <span>Notre vision</span>
                         </div>
                         <p>
                             Pour nous, l'utilisateur doit être au centre de toutes les reflexions. Nous pensons qu'il est important de remettre l'humain au premier plan au travers d'experiences utilisateurs adaptées, fiables et agréables, de design émotionel et de fonctionnalités pertinentes. Nos compétences techniques et créatives, nous permettent de suivre un projet de sa création à sa publication grâce aux méthodes de Design Thinking.
                         </p>
-                        <a href="#" class="btn blue" style="float:right;margin-top:30px"><span>en savoir plus</span></a>
+                        <a href="methode.php" class="btn blue" style="float:right;margin-top:30px"><span>en savoir plus</span></a>
                     </div>
                 </div>
             </div>
