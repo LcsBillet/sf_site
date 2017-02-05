@@ -94,6 +94,12 @@
                         <span class="title montserrat-text uppercase">Design d'application mobile</span>
                         <p>Grâce à de nombreux projets mobile, nous savons appréhender les nuances de design de chaque environnement (iOs, Android, WP) et nous pouvons vous proposer un <i>design adapté</i> à vos utilisateurs et à vos fonctionnalités.</p>
                     </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 benefits_2_single wow fadeInUp" data-wow-delay=".3s">
+                        <i class="icon ion-iphone"></i>
+                        <span class="title montserrat-text uppercase">Développement d'application</span>
+                        <p>Grâce à de nombreux projets mobile, nous savons appréhender les nuances de design de chaque environnement (iOs, Android, WP) et nous pouvons vous proposer un <i>design adapté</i> à vos utilisateurs et à vos fonctionnalités.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -106,7 +112,7 @@
                     <p class="italic" style="float:left;line-height:50px;margin:0">
                         La simplicité, c'est l'harmonie parfaite entre le beau, l'utile et le juste. - Franck Lloyd Wright -
                     </p>
-                    <a href="" class="btn green" style="float:right"><span>Découvrir nos projets</span></a>
+                    <a href="projects.php" class="btn green" style="float:right"><span>Découvrir nos projets</span></a>
                 </div>
             </div>
         </div>

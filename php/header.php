@@ -11,7 +11,7 @@
                     <li><a href="index.php" class="animsition-link link">Home</a></li>
                     <li><a href="methode.php" class="animsition-link link">Méthode</a></li>
                     <li><a href="about.php" class="animsition-link link">Services</a></li>
-                    <li><a href="porfolio.php" class="animsition-link link">Portfolio</a></li>
+                    <li><a href="projects.php" class="animsition-link link">Portfolio</a></li>
                     <li><a href="contact.php" class="animsition-link link">Contact</a></li>
                 </ul>
             </nav>

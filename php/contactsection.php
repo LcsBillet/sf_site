@@ -18,9 +18,9 @@
                         Nous pensons que pour développer des solutions adaptés, développeurs, designers et clients doivent travailler ensemble à chaque instant.
                     </p>
                     <div class="cd-social-icons">
-                        <a><i class="ion ion-social-facebook"></i></a>
-                        <a><i class="ion ion-social-twitter"></i></a>
-                        <a><i class="ion ion-social-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/StudioFloax"><i class="ion ion-social-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/StudioFloax"><i class="ion ion-social-twitter"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/10931394"><i class="ion ion-social-linkedin"></i></a>
                     </div>
                 </div>
             </div>

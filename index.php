@@ -30,7 +30,7 @@
                     <div class="big-title uppercase montserrat-text">
                         Agence Digitale
                         <p>
-                            Créateur d'experiences
+                            Créateurs d'experiences
                         </p>
                     </div>
                     <div>

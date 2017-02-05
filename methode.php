@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-1">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m1.jpg" />
                     </div>
                 </div>
                 <!-- ETAPE 1 : IMMERSIONO -->
@@ -135,7 +135,7 @@
                 <!-- ETAPE 2 : EMPATHIE -->
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m2.jpg" />
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step step-1">
                         <div class="step-title">
@@ -167,7 +167,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-1">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m3.jpg" />
                     </div>
                 </div>
                 <!-- ETAPE 3 : DIVERGEANCE -->
@@ -175,7 +175,7 @@
                 <!-- ETAPE 4 : CONVERGEANCE -->
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m4.jpg" />
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step step-1">
                         <div class="step-title">
@@ -205,7 +205,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m5.jpg" />
                     </div>
                 </div>
                 <!-- ETAPE 5 : SELECTION -->
@@ -213,7 +213,7 @@
                 <!-- ETAPE 6 : PROTOTYPE -->
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-1">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m6.jpg" />
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step step-1">
                         <div class="step-title">
@@ -241,12 +241,11 @@
                             <div class="cheddar-text">Test</div>
                         </div>
                         <div class="step-desc">
-                            Jqf liorsfsem ium sflem im liorem ispfsfum liorem ipumliorem ium liorem ispum
-                            liorem sispum lem ispusfm liorm iqsffqspum em iliorem ispm liorsfem ispum
+                            Afin de s'assurer que les idées et solutions ressorties des ateliers précédents correspondent bien à vos utilisateurs, nous effectuons des tests auprès de groupe de véritables utilisateurs. Nous testons le prototype réaliser précédemment afin de pouvoir vérifier son utilisabilité.
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m7.jpg" />
                     </div>
                 </div>
                 <!-- ETAPE 7 : TEST -->
@@ -254,18 +253,17 @@
                 <!-- ETAPE 8 : APPRENDRE -->
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">
-                        <img src="./assets/img/image1.jpg" />
+                        <img src="./assets/img/methode/m8.jpg" />
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step step-1">
                         <div class="step-title">
                             <div class="step-nb">
                                 <span>Etape 8</span>
                             </div>
-                            <div class="cheddar-text">Ittération</div>
+                            <div class="cheddar-text">Itération</div>
                         </div>
                         <div class="step-desc">
-                            Jqf liorsfsem ium sflem im liorem ispfsfum liorem ipumliorem ium liorem ispum
-                            liorem sispum lem ispusfm liorm iqsffqspum em iliorem ispm liorsfem ispum
+                            Comme pour les méthodes agiles en développement, le design thinking induit une itération grâce aux retours utilisateurs et à ce que les tests nous apprennent. De ces apprentissages, il est possible de recommencer le processus d'idéation afin d'améliorer les idées et concepts précédemment évoqués.
                         </div>
                     </div>
                 </div>
