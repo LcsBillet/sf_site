@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="scss/styles.min.css">
     </head>
     <body class="animsition">
+        <?php include_once("./php/analyticstracking.php") ?>
         <?php include 'php/header.php'; ?>
 
         <!-- HEADER SECTION  -->
@@ -25,12 +26,12 @@
             <ul class="slides">
                 <li>
                     <div>
-                        <span class="small-title uppercase montserrat-text">Créativité & UX Design</span>
+                        <span class="small-title uppercase montserrat-text">UX Design & Développement</span>
                     </div>
                     <div class="big-title uppercase montserrat-text">
-                        Agence Digitale
+                        <h1>Créateurs d'experiences</h1>
                         <p>
-                            Créateurs d'experiences
+                            Agence Digitale
                         </p>
                     </div>
                     <div>
@@ -119,9 +120,9 @@
                                 <i class="icon ion-code"></i>
                                 <span class="montserrat-text uppercase service-title">Développement</span>
                                 <ul>
-                                    <li>Développement Web</li>
+                                    <li>Site Web</li>
                                     <li>CMS (Wordpress, Joomla, ...)</li>
-                                    <li>Développement d'applicatio mobile</li>
+                                    <li>Application mobile</li>
                                 </ul>
                             </div>
                         </div>

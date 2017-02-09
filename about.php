@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
         <meta name="author" content="Studio Floax">
-        <meta name="description" content="Studio Floax est une agence de créativité digital">
+        <meta name="description" content="Studio floax, créer une expérience unique et adaptée à vos utilisateurs.">
 
         <!-- STYLES -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="scss/styles.min.css">
     </head>
     <body class="animsition">
+        <?php include_once("./php/analyticstracking.php") ?>
         <?php include 'php/header.php'; ?>
 
         <!-- HEADER SECTION  -->
@@ -35,11 +36,11 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="section-title" style="text-align:left;float:left;width:100%;margin-bottom:0">
-                            <span>Qui sommes nous?</span>
-                            <p class="montserrat-text uppercase">Designers, Développeurs, graphistes</p>
+                            <span>Qui sommes nous ?</span>
+                            <p class="montserrat-text uppercase">Facilitateurs, Designers, Développeurs</p>
                         </div>
 
-                        <p>UX Designer, Graphistes, Développeurs, Designers, notre passion pour le web et les arts visuels nous a réuni sur des projets divers comme la création de sites web, de vidéos ou d'applications mobile. Studio Floax est né pour fournir des créations dans l'ère du temps avec les codes visuels et les techniques actuelles. Notre connaissance des différents usages des nouvelles technologies et de l'attente forte des utilisateurs sont le point central de nos démarche de création.</p>
+                        <p>Facilitateurs, Designers, Développeurs notre passion pour le web et les arts visuels nous a réunis sur des projets divers comme la création de sites web, de vidéos ou d'applications mobiles. Studio Floax est né pour fournir des créations dans l'ère du temps avec les codes visuels et techniques actuels. Notre connaissance des différents usages des nouvelles technologies et de l'attente forte des utilisateurs sont le point central de nos démarches de création.</p>
                     </div>
                     <div class="col-md-6">
                         <div class="section-title" style="text-align:left;float:left;width:100%;margin-bottom:0">
@@ -98,7 +99,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 benefits_2_single wow fadeInUp" data-wow-delay=".3s">
                         <i class="icon ion-iphone"></i>
                         <span class="title montserrat-text uppercase">Développement d'application</span>
-                        <p>Grâce à de nombreux projets mobile, nous savons appréhender les nuances de design de chaque environnement (iOs, Android, WP) et nous pouvons vous proposer un <i>design adapté</i> à vos utilisateurs et à vos fonctionnalités.</p>
+                        <p>Pour vous accompagner tout au long de vos projets, nous vous proposons de développer les solutions imaginer lors de nos ateliers ou de donner vie aux interfaces créées pour vous.</p>
                     </div>
                 </div>
             </div>

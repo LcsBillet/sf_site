@@ -19,13 +19,14 @@
     <link rel="stylesheet" href="scss/styles.min.css">
 </head>
 <body class="animsition methode">
+    <?php include_once("./php/analyticstracking.php") ?>
     <?php include 'php/header.php'; ?>
 
     <!-- HEADER SECTION  -->
     <div class="site-hero_2">
         <div class="page-title">
             <div class="big-title montserrat-text uppercase">Méthode</div>
-            <div class="small-title montserrat-text uppercase">home / a propos</div>
+            <div class="small-title montserrat-text uppercase">home / méthode</div>
         </div>
     </div>
     <!-- HEADER SECTION  -->
@@ -35,7 +36,7 @@
         <div class="container methode-desc">
             <div class="row">
                 <div class="section-title">
-                    <span>Le Design Thinking</span>
+                    <span>Notre Méthode</span>
                     <p>Libérer sa créativité pour imaginer les fonctionnalités de demain</p>
                 </div>
             </div>
@@ -43,9 +44,9 @@
             <div class="row">
                 <div class="col-md-6 wow fadeInUp md-text">
                     <p>
-                        La créativité est un élément primordial dans le développement d'un projet. Le Design Thinking permet de laisser s'exprimer la créativité de chacun, quel que soit son profil et ses compétences. Les méthodes de design peuvent être appliquées à tous les projets et permettent de créer des projets répondant le plus possible au attentes des utilisateurs. Par ces méthodes et nos connaissances en design et en développement, nous allions Design Thinking et méthodes Agile afin de faire travailler main dans la main designers et développeurs.
+                        La créativité est un élément primordial dans le développement d'un projet. Inspiré par le Design Thinking, les Google sprints ainsi que les méthodologies Agile, nous avons mis en place une méthode en 8 étapes. Chaque étape permet d'avancer dans l'analyse, le ciblage, le prototypage et le test de votre solution. Cette méthode peut être appliquée à tous les projets (Sites Web, Applications Mobiles, Créations, Communication, Produits Physiques,...) et permet de créer des projets répondant le plus possible aux attentes des utilisateurs. Quelle que soit l'avancée de votre projet, nous vous permettons de tester de nouvelles idées et de résoudre de nombreux problèmes en quelques jours et en impliquant vos collaborateurs.
 
-                        <a href="#" class="btn-methode">Comprendre les 8  étapes <i class="fa fa-long-arrow-right"></i></a>
+                        <a href="#etapes" class="btn-methode">Comprendre les 8  étapes <i class="fa fa-long-arrow-right"></i></a>
                     </p>
                 </div>
 
@@ -103,8 +104,8 @@
     <!-- /HL -->
 
     <!-- METHODE -->
-    <section>
-        <div class="container methode-steps wow fadeInUp">
+    <sectionc id="etapes">
+        <div class="container methode-steps">
             <div class="row">
                 <div class="section-title">
                     <span>Les Etapes</span>
@@ -145,9 +146,9 @@
                             <div class="cheddar-text">Empathie</div>
                         </div>
                         <div class="step-desc">
-                            Pour comprendre leurs comportement, leurs émotions, et leur réactions, il est nécessaire d'imaginer à quoi nos utilisateurs ressemblent. A cette étape, nous définissons avec vous 3 personas (Rebel, Hésitant, Militant) qui à regroupent une majorité de vos utilisateurs. Volontairement extrèmes, ils sont les piliers des ateliers de design thinking et doivent servir de références jusqu'à la fin de votre projet pour tous les acteurs.
+                            Pour comprendre leurs comportement, leurs émotions, et leur réactions, il est nécessaire d'imaginer à quoi nos utilisateurs ressemblent. A cette étape, nous définissons avec vous 3 personas (Rebel, Hésitant, Militant) qui regroupent une majorité de vos utilisateurs. Volontairement extrèmes, ils sont les piliers des ateliers de design thinking et doivent servir de références jusqu'à la fin de votre projet pour tous les acteurs.
 
-                            <a href="#" class="btn-methode"><i class="fa fa-link"></i> Voir un persona</a>
+                            <!--<a href="#" class="btn-methode"><i class="fa fa-link"></i> Voir un persona</a>-->
                         </div>
                     </div>
                 </div>
@@ -163,7 +164,7 @@
                             <div class="cheddar-text">Divergeance</div>
                         </div>
                         <div class="step-desc">
-                            Cette première partie de la phase de l'atelier d'idéation est réalisée en petit groupe afin de permettre à tout le monde de s'exprimer. C'est la libération de vos idées, des plus terre à terre aux plus extravagante. Nous vous aidons à libérer votre créativité en stimulant les débats et les idées.
+                            Cette première partie de la phase de l'atelier d'idéation est réalisée en petits groupes afin de permettre à tout le monde de s'exprimer. C'est la libération de vos idées, des plus terre à terre aux plus extravagantes. Nous vous aidons à libérer votre créativité en stimulant les débats et les idées.
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-1">
@@ -185,7 +186,7 @@
                             <div class="cheddar-text">Convergeance</div>
                         </div>
                         <div class="step-desc">
-                            La génération d'idée en sous-groupe permet la multiplication et la divergeance des concepts. La phase de convergeance permet à chaque sous-groupe de présenter ses idées aux autres. Nous sommes là pour vous aider à rebondir sur les sujets et à lier l'ensembles des idées pour amener à trouver les meilleurs concepts et à les exploiter au maximum.
+                            La génération d'idées en sous-groupe permet la multiplication et la divergeance des concepts. La phase de convergeance permet à chaque sous-groupes de présenter ses idées aux autres. Nous sommes là pour vous aider à rebondir sur les sujets et à lier l'ensembles des idées pour amener à trouver les meilleurs concepts et à les exploiter au maximum.
                         </div>
                     </div>
                 </div>
@@ -223,9 +224,9 @@
                             <div class="cheddar-text">Prototype</div>
                         </div>
                         <div class="step-desc">
-                            Pour nous permettre de visualiser les concepts et les idées principales, ce nouvel atelier permet de réaliser un premier protoype de votre produit / application / site web. Le but ici est d'imaginer une Experience utilisateur et une interface grâce à des wireframes plus ou moins précis. Cette UX doit être penser pour répondre aux besoins et attentes des 3 persona créés lors du premier atelier.
+                            Pour nous permettre de visualiser les concepts et les idées principales, ce nouvel atelier permet de réaliser un premier protoype de votre produit / application / site web. Le but ici est d'imaginer une Experience utilisateur et une interface grâce à des wireframes plus ou moins précis. Cette UX doit être pensée pour répondre aux besoins et attentes des 3 personas créés lors du premier atelier.
 
-                            <a href="#" class="btn-methode"><i class="fa fa-link"></i> Voir un prototype</a>
+                            <!--<a href="#" class="btn-methode"><i class="fa fa-link"></i> Voir un prototype</a>-->
                         </div>
                     </div>
                 </div>
@@ -241,7 +242,7 @@
                             <div class="cheddar-text">Test</div>
                         </div>
                         <div class="step-desc">
-                            Afin de s'assurer que les idées et solutions ressorties des ateliers précédents correspondent bien à vos utilisateurs, nous effectuons des tests auprès de groupe de véritables utilisateurs. Nous testons le prototype réaliser précédemment afin de pouvoir vérifier son utilisabilité.
+                            Afin de s'assurer que les idées et solutions ressorties des ateliers précédents correspondent bien à vos utilisateurs, nous effectuons des tests auprès de groupe de véritables utilisateurs. Nous testons le prototype réalisé précédemment afin de pouvoir vérifier son utilisabilité.
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 step-img step-2">

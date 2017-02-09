@@ -1,3 +1,41 @@
+<?php
+if (isset($_POST["submit"])) {
+    echo "coucou";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $human = intval($_POST['human']);
+    $from = 'Contac Studio Floax';
+    $to = 'loic@studiofloax.fr';
+    $subject = $_POST['sujet'];
+
+    $body ="From: $name\n E-Mail: $email\n Message:\n $message";
+    if (!$_POST['name']) {
+        $errName = 'Entrer un nom.';
+    }
+
+    // Check if email has been entered and is valid
+    if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+        $errEmail = 'Entrer un email valide.';
+    }
+
+    if (!$_POST['message']) {
+        $errMessage = 'Entrer un message.';
+    }
+
+    if ($human !== 5) {
+        $errHuman = 'L\'anti-spam est incorrect.';
+    }
+    // If there are no errors, send the email
+    if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+        if (mail ($to, $subject, $body, $from)) {
+            $result='<div class="col-md-12">Merci, votre message a bien été envoyé </div>';
+        } else {
+            $result='<div class="col-md-12">Une erreur est survenue, veuillez essayer à nouveau </div>';
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,6 +56,7 @@
         <link rel="stylesheet" href="scss/styles.min.css">
     </head>
     <body class="animsition">
+        <?php include_once("./php/analyticstracking.php") ?>
         <?php include 'php/header.php'; ?>
 
         <!-- HEADER SECTION  -->
@@ -35,17 +74,20 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
+                            <?php echo $result; ?>
                             <form action="#" method="post">
                                 <div class="col-md-6">
                                     <div class="input_1" style="margin-bottom:30px">
                                         <input type="text" name="name">
                                         <span>Nom</span>
+                                        <?php echo $errName; ?>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input_1" style="margin-bottom:30px">
                                         <input type="text" name="email">
                                         <span>Email</span>
+                                        <?php echo $errEmail; ?>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -61,7 +103,14 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <a href="#" class="btn green"><span>Envoyer</span></a>
+                                    <div class="input_1" style="margin-bottom:30px">
+                                        <input type="text" id="human" name="human">
+                                        <span>Anti-spam: 2 + 3 = ?</span>
+                                        <?php echo $errHuman; ?>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input href="#" type="submit" id="submit"  name="submit" class="btn green" value="envoyer"/>
                                 </div>
                             </form>
                         </div>

@@ -8,6 +8,10 @@ $bleu: #5FC8D7;
 $vert: #05CB85;
 $jaune: #F8B132;
 
+ul{
+    padding-left: 0;
+}
+
 /* ##### FONT  ##### */
 
 @font-face {
@@ -666,7 +670,7 @@ ul.social-icons{
                 border:solid 10px #ffffff;
                 display: inline-block;
                 margin-bottom: 30px;
-                background: rgba(255, 255, 255, 0.6);
+                //background: rgba(255, 255, 255, 0.6);
 
                 p{
                     text-transform:uppercase;

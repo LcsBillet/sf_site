@@ -17,7 +17,7 @@
         <div class="col-md-4 col-sm-12" style="text-align:right">
             <div class="row">
                 <div class="uppercase gray-text">
-                    Studio Floax &copy;2016. all rights reserved.
+                    Studio Floax &copy;2017. all rights reserved.
                 </div>
                 <ul class="social-icons" style="margin-top:30px;float:right">
                     <li><a target="_blank" href="https://www.facebook.com/StudioFloax/"><i class="icon ion-social-facebook"></i></a></li>

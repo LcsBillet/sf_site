@@ -3,7 +3,7 @@
         <div class="col-md-6 col-sm-12 sc-devis">
             <div class="row">
                 <span class="white-text c-text montserrat-text uppercase" style="font-size:30px;display:block;">
-                    Vous voulez travailler avec nous? Demandez un devis
+                    Vous voulez travailler avec nous ? Demandez un devis
                 </span>
                 <a href="#" class="btn btn-contact" style="margin-top:30px"><span>Nous contacter</span></a>
             </div>
@@ -15,7 +15,7 @@
                     <span class="montserrat-text cd-title">Retrouvez nous sur les réseaux sociaux !</span>
                     <hr />
                     <p class="cd-text">
-                        Nous pensons que pour développer des solutions adaptés, développeurs, designers et clients doivent travailler ensemble à chaque instant.
+                        Nous pensons que pour développer des solutions adaptées, développeurs, designers et clients doivent travailler ensemble à chaque instant.
                     </p>
                     <div class="cd-social-icons">
                         <a target="_blank" href="https://www.facebook.com/StudioFloax"><i class="ion ion-social-facebook"></i></a>

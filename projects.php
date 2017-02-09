@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="scss/styles.min.css">
     </head>
     <body class="animsition">
+        <?php include_once("./php/analyticstracking.php") ?>
         <?php include 'php/header.php'; ?>
 
         <!-- HEADER SECTION  -->
